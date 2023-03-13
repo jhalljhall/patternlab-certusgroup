@@ -8,7 +8,7 @@
         "url": "http://localhost:3000",
         "webRoot": "${workspaceFolder}/patternlab/public",
         "sourceMapPathOverrides": {
-          "webpack:///app/src/*": "${webRoot}/*"
+          "webpack:///patternlab/public/*": "${webRoot}/*"
         }
       }
     ]
