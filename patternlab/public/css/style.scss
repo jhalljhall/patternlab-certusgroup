@@ -20,6 +20,8 @@ $headings-font-family: 'Raleway', sans-serif;
 
 $body-color: #9B9B9B;
 
+//$body-color: $checks;
+
 $headings-color: $dark;
 
 $headings-font-weight: 700;
@@ -35,3 +37,5 @@ $link-decoration: none;
 $enable-negative-margins: true;
 
 @import "bootstrap/scss/bootstrap";
+
+// comments
