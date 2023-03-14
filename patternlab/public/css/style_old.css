@@ -196,23 +196,31 @@ header, footer, nav, section, article, hgroup, figure {
 }
 
 .primary-base {
-  font-family: #216391;
+  background-color: #216391;
 }
 
 .secondary-base {
-  font-family: #133752;
+  background-color: #133752;
 }
 
 .tertiary-base {
-  font-family: #3397DE;
+  background-color: #3397DE;
 }
 
 .primary-container-base {
-  font-family: #246B9E;
+  background-color: #246B9E;
 }
 
 .secondary-container-base {
-  font-family: #1C5178;
+  background-color: #1C5178;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.black {
+  background-color: #000;
 }
 
 body {

@@ -110,24 +110,30 @@
 }
 
 .primary-base {
-    font-family: $primary-base;
+    background-color: $primary-base;
 }
 
 .secondary-base {
-    font-family: $secondary-base;
+    background-color: $secondary-base;
 }
 
 .tertiary-base {
-    font-family: $tertiary-base;
+    background-color: $tertiary-base;
 }
 
 .primary-container-base {
-    font-family: $primary-container-base;
+    background-color: $primary-container-base;
 }
 
 .secondary-container-base {
-    font-family: $secondary-container-base;
+    background-color: $secondary-container-base;
 }
 
+.white {
+    background-color: $white;
+}
 
+.black {
+    background-color: $black;
+}
 

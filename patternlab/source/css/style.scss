@@ -1,8 +1,18 @@
 /******* Customized Bootstrap ********/
 
-$primary: #32C36C;
-$light: #F6F7F8;
-$dark: #1A2A36;
+@import 'scss/generic/variables';
+@import 'scss/generic/mixins';
+@import 'scss/generic/reset';
+
+/*------------------------------------*\
+    $GLOBAL ELEMENTS
+\*------------------------------------*/
+@import 'scss/base/global-classes';
+
+
+$primary: $primary-base;
+$light: $secondary-base;
+$dark: $tertiary-base;
 
 $font-family-base: 'Lato', sans-serif;
 
