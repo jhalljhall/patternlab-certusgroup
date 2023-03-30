@@ -4,7 +4,10 @@
     
 {% endblock %}
 {% block content %}
-    
+
+    {% include "@molecules/components/spinner.twig" %}
+
+    {% include "@molecules/components/carousel.twig" %}
     {% include "@molecules/components/feature.twig" %}
     {% include "@molecules/components/about.twig" %}
     {% include "@molecules/components/service.twig" %}
